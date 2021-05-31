@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="CadastroProfessor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="IdentidadeProfessor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="NomeProfessor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DataNasci" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox_Digito" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox_Informatica" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox_Medicina" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox_Matematica" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="Cadastrar_Professor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCheckBox_Bacharel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCheckBox_Especialista" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCheckBox_Mestrado" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCheckBox_Doutorado" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="TxtNomeProf" pref="100" max="32767" attributes="0"/>
+                                      <Component id="TxtIdentProf" max="32767" attributes="0"/>
+                                      <Component id="TxtDataNasci" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="TituloProfessor" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="Endereco" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="TxtEnd" min="-2" pref="173" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Numero" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Bairro" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Estado" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="TxtTelCel" max="32767" attributes="0"/>
+                                          <Component id="TxtTelFixo" max="32767" attributes="0"/>
+                                          <Component id="TxtEstado" max="32767" attributes="0"/>
+                                          <Component id="TxtNum" max="32767" attributes="0"/>
+                                          <Component id="TxtBairro" max="32767" attributes="0"/>
+                                          <Component id="TxtCidade" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="TelCel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="TelFixo" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="0" pref="130" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="Limpar_Professor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Component id="Finalizar_Professor" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="CadastroProfessor" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="IdentidadeProfessor" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtIdentProf" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Endereco" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TxtEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NomeProfessor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtNomeProf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Numero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtNum" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DataNasci" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtDataNasci" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Bairro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtBairro" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TituloProfessor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Cidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtCidade" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox_Digito" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox_Bacharel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Estado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox_Informatica" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox_Especialista" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TelFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox_Matematica" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox_Mestrado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtTelFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox_Medicina" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox_Doutorado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TelCel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TxtTelCel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Cadastrar_Professor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Limpar_Professor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Finalizar_Professor" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="CadastroProfessor">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CADASTRO DE PROFESSOR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="IdentidadeProfessor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Identidade Professor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtIdentProf">
+    </Component>
+    <Component class="javax.swing.JLabel" name="NomeProfessor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome Professor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtNomeProf">
+    </Component>
+    <Component class="javax.swing.JLabel" name="DataNasci">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data de Nasc:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtDataNasci">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Especif Prof:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Digito">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Digito"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Informatica">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informatica"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Matematica">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Matematica"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Medicina">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medicina"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TituloProfessor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xed;tulo Prof:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Bacharel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bacharel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Especialista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Especialista"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Mestrado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mestrado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox_Doutorado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doutorado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Endereco">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Endere&#xe7;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtEnd">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Numero">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtNum">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Bairro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bairro:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtBairro">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Cidade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtCidade">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Estado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtEstado">
+    </Component>
+    <Component class="javax.swing.JLabel" name="TelFixo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel.Fixo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtTelFixo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="TelCel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel.Cel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtTelCel">
+    </Component>
+    <Component class="javax.swing.JButton" name="Cadastrar_Professor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Limpar_Professor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Finalizar_Professor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Finalizar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
